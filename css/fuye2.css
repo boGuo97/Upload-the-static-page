@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ddd;
+}
+a{
+	text-decoration: none;
+	color: #a0a0a0;
+}
+li{
+	list-style: none;
+}
+.center{
+	width: 1100px;
+	margin: 0 auto;
+}
+header{
+	height: 48px;
+	background-color: #323232;
+}
+.head{
+	position: relative;
+}
+.head:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#headerimg{
+	position: absolute;
+	z-index: 999;
+}
+.headleft{
+	width: 522px;
+	height: 48px;
+	padding-left: 216px;
+	float: left;
+}
+.headleft ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.headleft li{
+	width: 87px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 48px; 
+	float: left;
+	cursor: pointer;
+}
+/*..............................二级导航*/
+.headleft .shouyeli{
+	position: relative;
+}
+.shouyeerji{
+	width: 87px;
+	/*border: 1px solid #ddd;*/
+	border-top: none;
+	line-height: 38px;
+	background-color: #555;
+	position: absolute;
+	z-index: 999;
+	display: none;
+	/*left:-1px;*/
+}
+.headleft .shouyeli:hover .shouyeerji{
+	display: block;
+	z-index: 999;
+}
+.shouyeerji p:hover{
+	background-color: #dd4012;
+}
+/*................................*/
+#anliye{
+	background-color: #dd4012;
+}
+#anliye a{
+	color: #fff;
+}
+.headleft li:hover{
+	background-color: #dd4012;
+}
+.headleft li:hover a{
+	color: #fff;
+}
+.headright{
+	width: 272px;
+	float: right;
+	display: flex;
+	line-height: 48px;
+	justify-content:space-between;
+	cursor: pointer;
+}
+.headright .onea{
+	font-size: 12px;
+}
+.headright .onea:hover{
+	text-decoration: underline;
+	color: #dd4012;
+}
+/*........................背景图编辑*/
+.headright .hrfove{
+	display: inline-block;
+	width: 17px;
+	height: 48px;
+	background-image: url(../images/dianhua.png);
+	background-position: 1px 17px;
+	background-repeat: no-repeat;
+}
+.headright .hrone{
+	display: inline-block;
+	width: 19px;
+	height: 48px;
+	background: url(../images/qq.png);
+	background-position: 1px 16px;
+	background-repeat: no-repeat;
+}
+.headright .hrone:hover{
+	background: url(../images/qq2.png);
+	background-repeat: no-repeat;
+	background-position: 1px 16px;
+}
+.headright .hrtwo{
+	display: inline-block;
+	width: 24px;
+	height: 48px;
+	background-image: url(../images/weibo.png);
+	background-repeat: no-repeat;
+	background-position: 1px 16px; 
+}
+.headright .hrtwo:hover{
+	background: url(../images/weibo2.png);
+	background-position: 1px 16px;
+	background-repeat: no-repeat;
+}
+.headright .hrsan{
+	display: inline-block;
+	width: 23px;
+	height: 48px;
+	background: url(../images/weixin.png);
+	background-position: 1px 16px;
+	background-repeat: no-repeat;
+}
+.headright .hrsan:hover{
+	background: url(../images/weixin2.png);
+	background-repeat: no-repeat;
+	background-position: 1px 16px;
+}
+.headright .hrfour{
+	display: inline-block;
+	width: 21px;
+	height: 48px;
+	background: url(../images/youxiang.png);
+	background-position: 1px 16px;
+	background-repeat: no-repeat;
+}
+.headright .hrfour:hover{
+	background: url(../images/youxiang2.png);
+	background-repeat: no-repeat;
+	background-position: 1px 16px;
+}
+/*..............................*/

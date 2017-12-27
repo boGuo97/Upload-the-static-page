@@ -1,0 +1,374 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f0f1f1;
+}
+a{
+	text-decoration: none;
+	color: #a0a0a0;
+}
+li{
+	list-style: none;
+}
+.center{
+	width: 1100px;
+	margin: 0 auto;
+}
+header{
+	height: 48px;
+	background-color: #323232;
+}
+.head{
+	position: relative;
+}
+.head:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#headerimg{
+	position: absolute;
+	z-index: 999;
+}
+.headleft{
+	width: 522px;
+	height: 48px;
+	padding-left: 216px;
+	float: left;
+}
+.headleft ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.headleft li{
+	text-align: center;
+	font-size: 13px;
+	line-height: 48px; 
+	float: left;
+	cursor: pointer;
+}
+.headleft li a{
+	display: block;
+	width: 87px;
+	
+}
+/*..............................二级导航*/
+.headleft .shouyeli{
+	position: relative;
+}
+.shouyeerji{
+	width: 87px;
+	border-top: none;
+	line-height: 38px;
+	background-color: #666;
+	position: absolute;
+	z-index: 999;
+	display: none;
+	left:0px;
+}
+.headleft .shouyeli:hover .shouyeerji{
+	display: block;
+	z-index: 999;
+}
+.shouyeerji p:hover{
+	background-color: #dd4012;
+}
+.shouyeerji .shouyep{
+	background-color: #000;
+}
+.shouyeerji p:first-of-type .erjia{
+	color: #fff;
+}
+/*................................*/
+.headleft li:hover{
+	background-color: #dd4012;
+}
+.headleft li:hover a{
+	color: #fff;
+}
+.headright{
+	width: 272px;
+	float: right;
+	display: flex;
+	line-height: 48px;
+	justify-content:space-between;
+	cursor: pointer;
+}
+.headright .onea{
+	font-size: 12px;
+}
+.headright .onea:hover{
+	text-decoration: underline;
+	color: #dd4012;
+}
+/*........................背景图编辑*/
+.headright .hrfove{
+	display: inline-block;
+	width: 17px;
+	height: 48px;
+	background-image: url(../images/dianhua.png);
+	background-position: 1px 17px;
+	background-repeat: no-repeat;
+}
+.headright .hrone{
+	display: inline-block;
+	width: 19px;
+	height: 48px;
+	background: url(../images/qq.png);
+	background-position: 1px 16px;
+	background-repeat: no-repeat;
+}
+.headright .hrone:hover{
+	background: url(../images/qq2.png);
+	background-repeat: no-repeat;
+	background-position: 1px 16px;
+}
+.headright .hrtwo{
+	display: inline-block;
+	width: 24px;
+	height: 48px;
+	background-image: url(../images/weibo.png);
+	background-repeat: no-repeat;
+	background-position: 1px 16px; 
+}
+.headright .hrtwo:hover{
+	background: url(../images/weibo2.png);
+	background-position: 1px 16px;
+	background-repeat: no-repeat;
+}
+.headright .hrsan{
+	display: inline-block;
+	width: 23px;
+	height: 48px;
+	background: url(../images/weixin.png);
+	background-position: 1px 16px;
+	background-repeat: no-repeat;
+}
+.headright .hrsan:hover{
+	background: url(../images/weixin2.png);
+	background-repeat: no-repeat;
+	background-position: 1px 16px;
+}
+.headright .hrfour{
+	display: inline-block;
+	width: 21px;
+	height: 48px;
+	background: url(../images/youxiang.png);
+	background-position: 1px 16px;
+	background-repeat: no-repeat;
+}
+.headright .hrfour:hover{
+	background: url(../images/youxiang2.png);
+	background-repeat: no-repeat;
+	background-position: 1px 16px;
+}
+/*......................完结*/
+.banner{
+	height: 220px;
+	background-image:url(../images/buuerr2.png); 
+	position: relative;
+}
+.banner .bannertiao{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 28px;
+	background-color: #000;
+	opacity: 0.5;
+}
+.banner a{
+	color: #b0948b;
+	font-size: 12px;
+}
+.banner a:hover{
+	color: #fff;
+}
+.banner span{
+	color:#b0948b;
+	font-size: 14px; 
+}
+.main{
+	margin-top: 40px;
+}
+.main:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.mainzuo{
+	width: 110px;
+	border-top:1px solid #ddd;
+	position: relative;
+	text-align: center;
+	float: left;
+}
+.mainzuo img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.mainzuo .mainpone{
+	padding-top: 19px;
+	color: #999;
+	font-size: 12px;
+	padding-bottom: 14px;
+}
+.mainzuo .mainptwo{
+	font-size: 41px;
+	font-weight: bolder;
+	color: #999;
+	padding-bottom: 55px;
+}
+.mainzuo .mainptwo a:hover{
+	color: #dd4012;
+}
+.mainyou{
+	width: 952px;
+	float: right;
+	border-top: 1px solid #ddd;
+}
+.mainyou:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.mainyou .mainyou_1{
+	float: left;
+	padding-top: 22px;
+	padding-bottom: 32px;
+}
+.mainyou_1 img{
+	transition:transform .5s;
+}
+.mainyou_1 img:hover{
+	transform:scale(1.05,1.05);
+}
+.mainyou_2{
+	width: 698px;
+	float: left;
+	padding-left:22px;	
+}
+.mainyou_2 h4{
+	font-size: 18px;
+	padding-top: 20px;
+	color: #dd4012;
+}
+.spanzu{
+	padding: 9px 0;
+}
+.spanzu span{
+	font-size: 12px;
+	margin-left: 13px;
+}
+.spanzu span a:hover{
+	color: #dd4012;
+}
+.spanzu .mainyouspan{
+	margin-left: 0;
+}
+.mainyou_2 .mainyoup a{
+	font-size: 12px;
+}
+.mainyou_2 .mainyoup a:hover{
+	text-decoration: underline;
+	color: #555;
+}
+.mainzuo1{
+	border-bottom: 1px solid #ddd;
+}
+.mainyou1{
+	border-bottom: 1px solid #ddd;
+}
+/*...........................*/
+.pite{
+	width:241px;
+	margin: 0 auto; 
+	margin-bottom: 41px;
+	margin-top: 30px;
+}
+.pite ul li{
+	float: left;
+	width: 36px;
+	height: 36px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 36px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.pite ul li:hover{
+	background-color: #dd4012;
+	color: #fff;
+}
+.pite li:nth-of-type(6){
+	margin-right: 0;
+}
+.pite ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.pite ul li img{
+	transition:transform .5s;
+}
+.pite ul li img:hover{
+	transform:scale(1.1,1.1);
+}
+/*...............................*/
+.footer{
+	height: 82px;
+	background-color: #323232;
+}
+.footer_c:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.footer .footzuo{
+	width: 164px;
+	height:82px;
+	line-height: 52px;
+	background-image: url(../images/footer.png);
+	background-repeat: no-repeat;
+	background-position: 0 23px; 
+	cursor: pointer;
+	float: left;
+}
+.footer .footzuo:hover{
+	background-image: url(../images/footer2.png);
+	background-repeat: no-repeat;
+	background-position: 0 23px; 
+}
+.footer .footyou{
+	float: right;
+	font-size: 14px;
+	margin-top: 28px;
+	width: 40%;
+}
+#footerpone{
+	/*width: 100%;*/
+	float: right;
+}
+#footerpone span{
+	display: inline-block;
+	margin-left: 8px;
+}
+#footerpone a:hover{
+	color: #dd4012;
+}
+.footxia{
+	margin-top: 3px;
+	font-size: 12px;
+	float: right;
+}
+.footxia span{
+	margin: 0 10px;
+	color: #ddd;
+	font-size: 10px;
+}
+.footxia a:hover{
+	text-decoration: underline;
+}
