@@ -1,0 +1,459 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:url(../img/body.png);
+}
+.center{
+	width: 960px;
+	margin: 0 auto;
+}
+.brr{
+	height: 38px;
+}
+.br{
+	width: 100%;
+	height: 9px;
+	background-color: #25252C;
+	border-bottom: 1px solid #7A7A7E;
+}
+.drr{
+	width: 960px;
+	height: 38px;
+	background-color: #25252C;
+	margin: 0 auto;
+}
+.drr:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.drzuo{
+	float: left;
+}
+.drzuo .drzi{
+	color: #fff;
+	font-size: 9px;
+	line-height: 40px;
+	padding-left: 10px;
+}
+.dryou{
+	float: right;
+}
+.dryou:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.dryou .drzi{
+	color: #fff;
+	font-size: 9px;
+	line-height: 40px;
+	padding-left: 10px;
+	float: left;
+}
+.dryou img{
+	margin-top: 10px;
+	float:left;
+	padding-left:6px;
+}
+#imgone{
+	margin-right: 10px;
+}
+.center:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.cone{
+	width:428px;
+	float: left;
+}
+.cone img{
+	padding-left: 10px;
+}
+.ctwo{
+	height:103px;
+	width: 532px;
+	float:right;
+	display: flex;
+	justify-content:space-between;
+}
+.navone{
+	padding-top: 36px;
+	cursor: pointer;
+}
+.navone p a{
+	font-size: 21px;
+	color: #696969;
+	text-decoration: none;
+}
+.navone p a:hover{
+	text-decoration: underline;
+	color: #DD5044
+}
+.navone p:nth-of-type(2) a{
+	font-size: 11px;
+}
+.navtwo{
+	position: relative;
+}
+.navtwo:hover .naverji{
+	display: block;
+}
+.naverji{
+	width: 185px;
+	height: auto;
+	position: absolute;
+	border: 1px solid #ddd;
+	text-align: center; 
+	top: 100px;
+	left: -30px;
+	display: none;
+	background-color: #fff;
+	z-index: 999;
+}
+.naverji p{
+	color: #777;
+	padding: 13px 0;
+	border-top: 1px solid #ddd;
+}
+.naverji p:hover{
+	background-color: #000;
+	color: #fff;
+}
+#naverji p:first-of-type{
+	border: none;
+}
+/*..................................................*/
+.main{
+	height: 400px;
+	background:url(../img/banner.jpg);
+	color: #000;
+	position: relative;
+}
+.main .mone{
+	width: 626px;
+	height: auto;
+	font-size: 12px;
+	background-color: #fff;
+	opacity: 0.8;
+	padding: 10px;
+	padding-right:0;
+	position: absolute;
+	bottom:20px;
+}
+.mone .mone_p{
+	font-size: 19px;
+	padding-top: 5px;
+}
+.mone .mone_span{
+	display: inline-block;
+	padding: 8px 0;
+}
+.mtwo{
+	position: absolute;
+	right:200px;
+	bottom:13px;
+}
+.mtwo img{
+	transition:transform .5s;
+	cursor: pointer;
+}
+.mtwo img:hover{
+	transform:scale(1.1,1.1);
+	transition:transform .5s;
+}
+/*...........................................轮播图*/
+#lunbo li{
+	list-style: none;
+	display: none;
+}
+#lunbo .lunbolione{
+	display: block;
+}
+#lunbo li img{
+	width: 100%;
+}
+/*。。。。。。。。。................结束*/
+.hello{
+	padding-top: 20px;
+	display: flex;
+	justify-content:space-between;
+}
+.hello .helloone{
+	background: url(../img/chunk1.png);
+	border: 1px solid #ccc;
+	text-align: center;
+	width: 232px;
+	height: 232px;
+	font-size: 12px;
+	color: #717070;
+	cursor: pointer;
+}
+.hello .helloone:hover{
+	/*background: url(../img/chunk.png);*/
+	color: #fff;
+	background-color:#25252C;
+}
+.helloone .helloimg{
+	padding-top: 23px;
+	padding-bottom: 10px;
+}
+.helloone h5{
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+.ktv{
+	height: 40px;
+	line-height: 40px;
+	background-color: #EAE8E8;
+	padding:0 13px;
+	color: #555;
+	margin-top: 39px;
+	margin-bottom: 36px;
+}
+/*.................................*/
+.hader{
+	display: flex;
+	justify-content:space-between;
+}
+.hade{
+	width: 233px;
+	height: auto;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+.hadeone{
+	width: 215px;
+	background-color: #fff;
+	padding: 8px;
+	border: 1px solid #555;
+	/*box-shadow:0px 0px  10px 5px #999;*/
+}
+.hadedingwei{
+	width: 233px;
+	height: 162px;
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left:0px;
+	opacity: 0.4
+	;
+	display: none;
+}
+#hadeimgdingwei{
+	position: absolute;
+	top:51px;
+	left:90px;
+	transition:transform .5s;
+	display: none;
+}
+#hadeimgdingwei:hover{
+	transform:scale(1.2,1.2);
+}
+.hadeone:hover{
+	border:1px solid #fff;
+}
+.hadeone:hover .hadedingwei{
+	display: block;
+}
+.hadeone:hover #hadeimgdingwei{
+	display: block;
+}
+.hade h5{
+	font-size: 14px;
+	padding-bottom: 5px;
+	padding-top: 20px;
+}
+.hade p{
+	font-size: 12px;
+	color: #717070;
+	cursor: pointer;
+}
+.hade p:hover{
+	color: #AA0606;
+}
+.arst{
+	margin-top: 44px;
+	border-top: 1px solid #ddd;
+	position: relative;
+	height: 42px;
+}
+.arst img{
+	position: absolute;
+	top: -19px;
+	right: 50%;
+	cursor: pointer;
+}
+.footer{
+	background-color: #1C1C20;
+	border: 1px solid #555;
+	padding-top: 30px;
+}
+/*.....................................有问题*/
+.footer .footerzhong{
+	display: flex;
+	justify-content:space-between;
+}
+.footzuo{
+	width: 327px;
+	color: #fff;
+	height: auto;
+}
+.footzuo p{
+	color: #555;
+	font-size: 14px;
+	margin: 15px 0;
+}
+.footzuo .zuotu img{
+	border: 1px solid #555;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.footzuo .zuotu{
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+.footzuo:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.zuotu .zuotudingwei{
+	width: 78px;
+	height: 78px;
+	background-color: #000;
+	position: absolute;
+	top: 0px;
+	opacity: 0.6;
+	display: none;
+}
+.footzuo .zuotu:hover .zuotudingwei{
+	display: block;
+}
+.footzhong{
+	width: 222px;
+	height: auto;
+}
+.footzhong h4{
+	margin-bottom: 19px;
+	color: #fff;
+}
+.footzhong input{
+	border:1px solid #26262a;
+	background-color: #26262a;
+	border-radius: 4px;
+	height: 36px;
+	width: 215px;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	outline: none;
+	color: #fff;
+}
+.footzhong input:hover{
+	background-color: #555;
+}
+.footzhong textarea{
+	background: url(../img/chunk.png);
+	color: #fff;
+	padding-top: 5px;
+	padding-left: 5px;
+	width: 215px;
+	border: 1px solid #26262a;
+	border-radius: 5px;
+}
+.footzhong button{
+	margin-left: 45px;
+	width: 130px;
+	height: 30px;
+	background-color: #26262a;
+	border: none;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.footzhong button:hover{
+	background-color: #555;
+}
+.footyou{
+	width: 273px;
+	height: auto;
+}
+.footyou .xiabianxian{
+	border-bottom: 1px dashed #555;
+	margin-bottom: 13px;
+}
+.footyou .xiabianxian:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.footyou h4{
+	color: #fff;
+	margin-bottom: 19px;
+}
+.footyoutu{
+	width: 96px;
+	float: left;
+}
+.footyoutu img{
+	width: 100%;
+	margin-bottom: 19px;
+	transition:transform .5s;
+	cursor: pointer;
+}
+.footyoutu img:hover{
+	transform:scale(1.1,1.1);
+	transition:transform .5s;
+}
+.footyou .footp{
+	color: #3fa1ca;
+	font-size: 14px;
+}
+.footyou .footp:hover{
+	color: #CE4A3D;
+}
+.footyou p{
+	font-size: 12px;
+	float: left;
+	margin-left: 10px;
+	color: #555;
+	cursor: pointer;
+}
+.footyou p:hover{
+	color: #ddd;
+	text-decoration: underline;
+}
+.shouwei{
+	background-color: #121212;
+	height: 30px;
+}
+.weibu:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.weibu .weibuzuo{
+	width: 50%;
+	float: left;
+}
+.weibu .weibuyou{
+	width: 40%;
+	float: right;
+	display: flex;
+	justify-content:space-between;
+}
+.weibu a{
+	font-size: 12px;
+	text-decoration:none;
+	color: #fff;
+}
+.weibu a:hover{
+	text-decoration: underline;
+}

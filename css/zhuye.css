@@ -279,16 +279,23 @@ header{
 }
 .pite ul li{
 	float: left;
-	width: 36px;
-	height: 36px;
 	background-color: #fff;
 	text-align: center;
 	line-height: 36px;
 	margin-right: 5px;
 	cursor: pointer;
 }
+.pite ul li a{
+	display: block;
+	width: 36px;
+	height: 36px;
+	color: #000;
+}
 .pite ul li:hover{
 	background-color: #dd4012;
+	color: #fff;
+}
+.pite ul li a:hover{
 	color: #fff;
 }
 .pite li:nth-of-type(6){
@@ -299,11 +306,11 @@ header{
 	display: block;
 	clear: both;
 }
-.pite ul li img{
+.pite img{
 	transition:transform .5s;
 }
-.pite ul li img:hover{
-	transform:scale(1.1,1.1);
+.pite img:hover{
+	transform:scale(1.7,1.7);
 }
 /*...............................*/
 .footer{
@@ -360,4 +367,250 @@ header{
 .footxia a:hover{
 	text-decoration: underline; 
 }
+/*///////////index2.css//////////////////*/
+.cup{
+	margin-top: 40px;
+}
+.cup:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.cupzuo{
+	width: 110px;
+	border-top:1px solid #ddd;
+	position: relative;
+	text-align: center;
+	float: left;
+}
+.cupzuo img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.cupzuo .cuppone{
+	padding-top: 19px;
+	color: #999;
+	font-size: 12px;
+	padding-bottom: 14px;
+}
+.cupzuo .cupptwo{
+	font-size: 41px;
+	font-weight: bolder;
+	color: #999;
+	padding-bottom: 55px;
+}
+.cupzuo .cupptwo a:hover{
+	color: #dd4012;
+}
+.cupyou{
+	width: 952px;
+	float: right;
+	border-top: 1px solid #ddd;
+}
+.cupyou:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.cupyou .cupyou_1{
+	float: left;
+	padding-top: 22px;
+	padding-bottom: 32px;
+	overflow: hidden;
+}
+.cupyou_1 img{
+	transition:transform .5s;
+}
+.cupyou_1 img:hover{
+	transform:scale(1.05,1.05);
+}
+.cupyou_2{
+	width: 698px;
+	float: left;
+	padding-left:22px;	
+}
+.cupyou_2 h4{
+	font-size: 18px;
+	padding-top: 20px;
+	color: #dd4012;
+}
+.spanzu{
+	padding: 9px 0;
+}
+.spanzu span{
+	font-size: 12px;
+	margin-left: 13px;
+}
+.spanzu span a:hover{
+	color: #dd4012;
+}
+.spanzu .cupyouspan{
+	margin-left: 0;
+}
+.cupyou_2 .cupyoup a{
+	font-size: 12px;
+}
+.cupyou_2 .cupyoup a:hover{
+	text-decoration: underline;
+	color: #555;
+}
+.cupzuo1{
+	border-bottom: 1px solid #ddd;
+}
+.cupyou1{
+	border-bottom: 1px solid #ddd;
+}
+/*..........................................*/
+.bannertwo{
+	height: 220px;
+	background-image:url(../images/buuerr2.png); 
+	background-position: -280px 0;
+	position: relative;
+}
+.bannertwo .bannertiao{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 28px;
+	background-color: #000;
+	opacity: 0.5;
+}
+.bannertwo a{
+	color: #b0948b;
+	font-size: 12px;
+}
+.bannertwo a:hover{
+	color: #fff;
+}
+.bannertwo span{
+	color:#b0948b;
+	font-size: 14px; 
+}
+/*..........index3.....................................*/
+.but{
+	width: 990px;
+	margin-top: 96px;
+	margin-bottom: 34px;
+	background-color: #fff;
+	padding: 44px 58px 60px 52px;
+}
+.butone h4{
+	font-size: 18px;
+}
+.buttwo{
+	overflow: hidden;	
+	border-bottom: 	#f0f1f1 1px solid;
+	margin-top: 20px;
+	padding-bottom: 7px;
+}
+.buttwo .butyouspan{
+	margin: 0;
+}
+.buttwo .spanzutwo{
+	font-size: 12px;
+	float: left;
+} 
+.spanzutwo a:hover{
+	color: #dd4012;
+}
+.butp{
+	float: right;
+	font-size: 12px;
+}
+.butxinwen{
+	margin-top: 32px;
+}
+.butxinwen .butpone{
+	margin-top: 33px;
+	font-size: 14px;
+	line-height: 28px;
+}
+.butxinwen .butpone p{
+	color: #333333;
+}
+.butxinwen .butp_one{
+	padding-bottom:43px;
+	border-bottom: 1px solid #f0f1f1;
+}
+/*............................*/
+.com{
+	overflow: hidden;
+	margin-top: 18px;
 
+}
+.com a{
+	color: #333;
+	font-size: 12px;
+}
+.com a:hover{
+	text-decoration: underline;
+	color: #dd4012;
+}
+.com .comzuo{
+	font-size: 12px;
+	float: left;
+	color: #ebebeb;
+}
+.com .comyou{
+	font-size: 12px;
+	float: right;
+	color: #ebebeb;
+}
+/*....................index4...........*/
+.bannerthree{
+	height: 220px;
+	background-image:url(../images/buuerr3.jpg); 
+	background-position: -280px 0;
+	position: relative;
+}
+.bannerthree .bannertiao{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 28px;
+	background-color: #000;
+	opacity: 0.5;
+}
+.bannerthree a{
+	color: #b0948b;
+	font-size: 12px;
+}
+.bannerthree a:hover{
+	color: #fff;
+}
+.bannerthree span{
+	color:#b0948b;
+	font-size: 14px; 
+}
+.gmb{
+	margin-top: 46px;
+	overflow: hidden;
+}
+.gmbzuo{
+	width: 200px;	
+	background-color: #000;
+	float: left;
+}
+.gmbzuo ul li{
+	padding: 11px 0;
+	padding-left: 35px;
+}
+.gmbzuo ul .gmbli{
+	background-color: #dd4012;
+}
+.gmbzuo ul .gmbli a{
+	color: #fff;
+}
+.gmbzuo ul li:hover{
+	background-color: #dd4012;
+}
+.gmbzuo ul li:hover a{
+	color: #fff;
+}
+.gmbzuo ul li a{
+	color: #777;
+}
+.gmbyou{
+	float: right;
+}
