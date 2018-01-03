@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>dianwie</title>
+	<style>
+	*{
+		margin: 0;padding: 0;
+	}
+	body{
+		overflow: hidden;
+	}
+		.nav{
+			width: 256px;
+			height: 170px;
+			margin: 100px auto;
+			position: relative;
+			overflow: hidden;
+			float: left;
+		}
+		.nav img{
+			width: 100%;
+		}
+		.nav_2{
+			position: absolute;
+			background-color: rgba(0,0,0,.1);
+			width: 100%;
+			transition:all 0.9s;
+			color:#ddd;
+			bottom: -42px;
+			/*transition:all 2s;*/
+		}
+		.nav_2 p{
+			text-align: center;
+		}
+		.nav:hover .nav_2{
+			background-color: rgba(0,0,0,.5);
+			color: pink;
+			/*background-color: pink;*/
+			bottom: 0px;
+		}
+		.nav_2 img{
+			width: 15%;
+			border-radius: 50%; 
+			margin-left: 100px;
+		}
+		.main{
+			width: 270px;
+			height: auto;
+			margin: 0 auto;
+			border: 1px solid #000;
+			position: relative;
+			overflow: hidden;
+			float: right;
+		}
+		.main img{
+			width: 100%;
+		}
+		.mainp{
+			width: 100%;
+			position: absolute;
+			bottom:0px;
+			background-color: #fff;
+			/*margin-left: 50px;*/
+			padding-left: 50px;
+			transition:all 0.2s;
+			height: 20px;
+		}
+		.main:hover .mainp{
+			bottom:-20px;
+		}
+		.main:hover p{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<img src="dingwei.jpg" alt="">
+		<div class="nav_2">
+			<p>初见霓虹，你的样子</p>
+			<img src="nav.jpg" alt="">
+		</div>
+	</div>
+	<div class="main">
+		<img src="dingwei.jpg" alt="">
+		<p>【火影】而我已经分不清，你是友情，还是错过的爱情</p>
+		<p class="mainp">88.2万大大大大大大大</p>
+	</div>
+</body>
+</html>
